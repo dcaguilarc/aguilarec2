@@ -22,6 +22,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             cd /prueba/
-            git pull https://github.com/dcaguilarc/aguilarec2.git
+            sudo git pull https://github.com/dcaguilarc/aguilarec2.git
             sudo systemctl restart httpd
           debug: true
