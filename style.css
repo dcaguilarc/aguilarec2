@@ -1,0 +1,40 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.div-central {
+    height: 50%;
+    
+}
+
+.column-container {
+    height: 25%;
+    flex-direction: row;
+}
+
+.left-column, .right-column {
+    height: 100%;
+    width: 50%;
+}
