@@ -17,7 +17,7 @@ jobs:
       - name: deploy Apache
         uses: appleboy/ssh-action@v1.2.0
         with:
-          host: 34.226.141.156
+          host: 98.81.97.10
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
