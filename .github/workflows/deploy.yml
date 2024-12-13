@@ -21,7 +21,7 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd /prueba/
+            cd /Action/
             sudo git pull https://github.com/dcaguilarc/aguilarec2.git
             sudo systemctl restart httpd
           debug: true
